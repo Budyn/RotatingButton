@@ -1,8 +1,8 @@
-# RotatingButton
-A button that you can rotate.
+# RotatingButton 🌪
+A button that you can rotate. 
 
 How to rotate this button:
-  1. On any UIButton
+  1. On any Rotating
   2. Use: 
   ```
     .rotate()
