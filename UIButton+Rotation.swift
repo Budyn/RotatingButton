@@ -5,7 +5,7 @@
 
 import UIKit
 
-class RotatingButton: UIButton {
+extension UIButton {
 
     func rotate(time: Double = 0.7) {
         UIView.animateKeyframes(withDuration: time,
@@ -13,9 +13,9 @@ class RotatingButton: UIButton {
                                 options: [],
                                 animations: {
                                     self.prepareAnimation()
-                                }, completion: { _ in
-                                    self.finishAnimation()
-                                })
+        }, completion: { _ in
+            self.finishAnimation()
+        })
     }
 
     private func prepareAnimation() {
