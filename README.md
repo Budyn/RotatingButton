@@ -2,7 +2,7 @@
 A button that you can rotate. 
 
 How to rotate this button:
-  1. On any Rotating
+  1. Use RotatingButton instead of UIButton
   2. Use: 
   ```
     .rotate()
