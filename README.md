@@ -10,8 +10,7 @@ How to rotate your button:
   ```
   Optionally:
   
-  4. You can specify a time of animation like this:
-  (default animation time is 0.7 sec)
+  4. You can specify a time of animation like this (default animation time is 0.7 sec):
   ```
     .rotate(time: 1.2)
   ```
