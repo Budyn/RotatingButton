@@ -1,15 +1,16 @@
 # RotatingButton 🌪
 A button that you can rotate. 
 
-How to rotate this button:
-  1. Use RotatingButton instead of UIButton
-  2. Use: 
+How to rotate your button:
+  1. Add  UIButton+Rotation to your project
+  2. On any UIButton
+  3. Use: 
   ```
     .rotate()
   ```
   Optionally:
   
-  3. You can specify a time of animation like this:
+  4. You can specify a time of animation like this:
   (default animation time is 0.7 sec)
   ```
     .rotate(time: 1.2)
